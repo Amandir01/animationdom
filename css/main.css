@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eedec4;
+}
+h1 {
+  font-family: 'Bungee Inline', cursive;
+  text-align: center;
+  font-size: 50px;
+  color: pink;
+  border: 9px solid pink ;
+  display: inline-block;
+  margin-left: 33%;
+  border-style: double;
+}
+.board {
+  margin: 50px auto 0;
+}
+.board td {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black ;
+  text-align: center;
+}
+.board td:hover {
+  background-image: url(../assets/gif/original.gif);
+  background-size: contain;
+}
